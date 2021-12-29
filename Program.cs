@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
+using CSharpSecaoNove.Entities;
+using CSharpSecaoNove.Entities.Enums;
 
 namespace CSharpSecaoNove
 {
@@ -11,7 +13,22 @@ namespace CSharpSecaoNove
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Iniciando a Seção 9 do Curso de CSharp da Udemy");
+            Order orderOne = new Order{
+                OrderId = 1080,
+                OrderMoment = DateTime.Now,
+                StatusOrder = OrderStatus.PendingPayment
+            };
+
+            Console.WriteLine("Imprimindo OrderOne: " + orderOne);
+
+            string txt = OrderStatus.PendingPayment.ToString();
+
+            OrderStatus os = Enum.Parse<OrderStatus>("Delivered");
+
+            Console.WriteLine("Convertendo OrderStatus(Enum) para string: " + txt);
+            Console.WriteLine("Convertendo txt para Enum: " + os);
+
+            
         }
     }
 }
