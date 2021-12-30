@@ -10,6 +10,9 @@ using CSharpSecaoNove.ExercicioResolvido.EntitiesExercicio;
 using CSharpSecaoNove.ExercicioResolvido.EnumsExercicio;
 using CSharpSecaoNove.ExercicioResolvido;
 using CSharpSecaoNove.ExercicioResolvidoDois;
+using CSharpSecaoNove.ExercicioFixacao;
+using CSharpSecaoNove.ExercicioFixacao.Entities;
+using CSharpSecaoNove.ExercicioFixacao.Entities.Enum;
 
 namespace CSharpSecaoNove
 {
@@ -18,7 +21,8 @@ namespace CSharpSecaoNove
         public static void Main(string[] args)
         {          
            //ExercicioExecutavel.ExecutarExercicioResolvido();
-            ExercicioResolvidoDois.ExercicioResolvidoDois.ExecutarExercicioResolvidoDois();
+            //ExercicioResolvidoDois.ExercicioResolvidoDois.ExecutarExercicioResolvidoDois();
+            ExercicioFixacao.ExercicioFixacao.ExecutarExercicioFixacao();
         }
     }
 }
