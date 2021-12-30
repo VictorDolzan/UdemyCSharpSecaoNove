@@ -9,6 +9,7 @@ using System.Globalization;
 using CSharpSecaoNove.ExercicioResolvido.EntitiesExercicio;
 using CSharpSecaoNove.ExercicioResolvido.EnumsExercicio;
 using CSharpSecaoNove.ExercicioResolvido;
+using CSharpSecaoNove.ExercicioResolvidoDois;
 
 namespace CSharpSecaoNove
 {
@@ -16,7 +17,8 @@ namespace CSharpSecaoNove
     {
         public static void Main(string[] args)
         {          
-           ExercicioExecutavel.ExecutarExercicioResolvido();
+           //ExercicioExecutavel.ExecutarExercicioResolvido();
+            ExercicioResolvidoDois.ExercicioResolvidoDois.ExecutarExercicioResolvidoDois();
         }
     }
 }

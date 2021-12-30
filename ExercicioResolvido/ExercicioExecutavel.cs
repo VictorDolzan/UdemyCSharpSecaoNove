@@ -52,7 +52,7 @@ namespace CSharpSecaoNove.ExercicioResolvido
 
             Console.WriteLine("Name: " + worker1.WorkerName);
             Console.WriteLine("Department: " + worker1.Department.DepartmentName);
-            Console.WriteLine("Income: " + monthAndYear + ": " + worker1.Income(year, month));
+            Console.WriteLine("Income: " + monthAndYear + ": " + worker1.Income(year, month));            
             
         }
     }
